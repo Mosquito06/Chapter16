@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         datas.add("ThreadEx01");
         datas.add("ThreadEx02");
         datas.add("ThreadEx03");
+        datas.add("ThreadEx04");
+        datas.add("Mission01");
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datas);
         listView.setOnItemClickListener(this);
         listView.setAdapter(adapter);
